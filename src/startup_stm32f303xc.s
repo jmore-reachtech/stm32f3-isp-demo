@@ -235,6 +235,8 @@ g_pfnVectors:
 	.word	0
 	.word	0
 	.word	FPU_IRQHandler
+	/* This is our software version number */
+	.word	0x00001240
 
 /*******************************************************************************
 *
